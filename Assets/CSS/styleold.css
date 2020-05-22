@@ -240,42 +240,43 @@ nav a:first-child {
  * Media Query Style Exercise: Solved;
  **/
 
- * {
+ /* * {
     box-sizing: border-box;
   }
-  
+   */
   /*
     The background color will be #ccc
     at browser widths above 768px
   */
-  body {
-    /* Typography */
+  /* Typography */
+  /* Visual */
+  /* body {
     font-size: 18px;
     line-height: 27px;
   
     /* Visual */
-    background-color: #ccc;
-  }
+    /* background-color: #ccc;
+  } */ 
   
   /*
     The width of the wrapper will be 1024px
     at browser widths above 768px
   */
-  .wrapper {
-    /* Box-model */
+  /* Box-model */
+  /* .wrapper {
     width: auto;
   
-    /* Positioning */
-    /* margin: 40px auto; */
-  }
+} */
+/* Positioning */
+/* margin: 40px auto; */
   
-  #about,
+  /* Box-model */
+  /* #about,
   #portfolio,
   #contact {
-    /* Box-model */
     width: 200px;
     padding: 30px;
-  }
+  } */
   
   @media screen and (max-width: 880px) {
     .wrapper {
@@ -289,6 +290,10 @@ nav a:first-child {
     #contact {
       width: 100%;
       margin-bottom: 20px;
+      position: relative;
+      right: 0;
+      bottom: 0;
+
     }
     #about {
         margin-top: 20px;

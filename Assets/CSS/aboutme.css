@@ -1,0 +1,80 @@
+/* border inside box size */
+* {
+    box-sizing: border-box;
+}
+
+/* social icon display properties */
+
+.social {
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+.social:last-child {
+    margin-right: 0;
+}
+
+#social {
+    background: linear-gradient(#4aaaa4, #fff); 
+}
+
+/* fixed footer properties */
+
+.footer {
+    height: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4aaaa4;
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+}
+
+/* name logo properties */
+
+#logo {
+    width: 250px;
+    height: 90px;
+    background: #4aaaa4;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+}
+ /* main container properties */
+#main-container{
+    background: #fff;
+    padding: 30px;
+    margin: 80px 0 40px 0;
+    width: 100%;
+    max-width: 1024px;
+    float: left;
+    border: 1px solid #ddd;
+}
+/* navigation bar properties */
+.custom-navbar {
+    background-image: linear-gradient(#fff, #4aaaa4);
+}
+#navbarSupportedContent {
+    /* flex-direction: column; */
+    /* display: flex; */
+    justify-content: flex-end;
+}
+
+#no-padd {
+    padding: 0;
+}
+.page-header {
+    background: linear-gradient(#4aaaa4, #fff);
+
+}
+
+/* media queries for site responsiveness */
