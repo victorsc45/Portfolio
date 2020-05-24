@@ -2,6 +2,15 @@
 * {
     box-sizing: border-box;
 }
+/* set body weight and background */
+body 
+{
+    /* add bg url here */
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'Arial', 'Helveticaa Neue', Arial, Helvetica, sans-serif;
+    color: #777;
+}
 
 /* social icon display properties */
 
@@ -62,13 +71,13 @@
     padding: 30px, auto;
     margin: 0 0 0 160px;
     width: 100%;
-    max-width: 760px;
+    max-width: 950px;
     float: left;
     border: 2px solid #4aaaa4;
 }
 
 .auth-image {
-    width: 200px;
+    width: auto;
     height: 200px;
     float: left;
     margin: 25px, auto;
@@ -78,11 +87,13 @@
    justify-content: center;
    margin-top: 60px;
 }
-.content p {
-    inline-size: auto;
-    width: 100%;
-    padding-top: 30px;
+/* .content {
+    margin-left: 10px;
+    padding: 0 auto;
 }
+p {
+    display: inline-block;
+} */
 
 
 /* navigation bar properties */
