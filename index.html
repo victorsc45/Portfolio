@@ -8,22 +8,14 @@
     <!-- <link rel="stylesheet" type="text/css" href="Assets/CSS/reset.css"> -->
     <link rel="stylesheet" type="text/css" href="Assets/CSS/aboutme.css">
     <!-- Latest compiled and minified CSS -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-    <!-- Optional theme -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
-        integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous"> -->
-
-    <!-- Latest compiled and minified JavaScript -->
-    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
-        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
-        crossorigin="anonymous"></script> -->
-</head>
+ </head>
 
 <body>
-    <nav id="no-padd" class="navbar navbar-expand-lg navbar-dark custom-navbar">
+    <!-- nav bar setup for links logo and responsiveness -->
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar"  id="no-padd">
+        <div class="container-fluid"  id="no-padd">
         <!-- Brand and toggle get grouped for better mobile display -->
         <a id="logo" class="navbar-brand" href="#">Victor Litzau</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -32,18 +24,19 @@
         </button>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class=" collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item active"><a class="nav-link" href="index.html">About</a>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item active"><a class="nav-link custom-nav-link" href="index.html">About</a>
                 </li>
-                <li class="nav-item active"><a class="nav-link" href="portfolio.html">Portfolio</a>
+                <li class="nav-item active"><a class="nav-link custom-nav-link" href="portfolio.html">Portfolio</a>
                 </li>
-                <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a>
+                <li class="nav-item active"><a class="nav-link custom-nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div><!-- /.navbar-collapse -->
         <!-- </div> -->
-        <!-- /.container-fluid -->
+        </div><!-- /.container-fluid -->
     </nav>
+    <!-- about me header columns and connect with me panel responsive container -->
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-8" id="page-head">
@@ -52,6 +45,7 @@
                 </div>
 
             </div>
+            <!-- social media icons for future connect with me links in a bootstrap panel with responvieness  -->
             <div class="col-xs-6 col-md-4" id="social">
                 <div class="panel panel-default">
                     <div class="panel-heading">
@@ -66,15 +60,19 @@
             </div>
         </div>
     </div>
+    <!-- main content with picture and some descriptions about me responsive rows and columns start main row across page -->
     <div class="row">
+        <!-- empty div to off-set columns and rows (could not get col-offset to work at this time-->
         <div class="col-xs-1 col-sm-1 col-md- 2 col-lg-2">
         </div>
+        <!-- beginning of picture and main content about me -->
         <div class="col-lg-6">
     <div class="row" id="main-container">
+        <!-- thumbnail img and responsive column width col-4 -->
         <div class="col-xs-6 col-md-4" id="auth-image">
-
-            <img src="assets/images/git.jpg" class=" thumbnail rounded img-fluid" alt="picture of victor">
+            <img src="assets/images/git.jpg" class="img-thumbnail rounded img-fluid" alt="picture of victor">
         </div>
+        <!-- content with responsive col-8 -->
         <div class="col-xs-6 col-md-4 col-md-8">
             <p id="content">I am a web developer commitment to
                 learning new technologies. I have a Computer Science degree, Bachelor of Science
@@ -109,6 +107,7 @@
         </div>
     </footer> -->
 </body>
+<!-- javaScript and jQuery mins work with bootstrap cnds -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
