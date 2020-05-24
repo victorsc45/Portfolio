@@ -71,30 +71,36 @@ body
     padding: 30px, auto;
     margin: 0 0 0 0;
     width: 100%;
+    height: 100%;
     max-width: 950px;
-    float: left;
+    float: right;
     border: 2px solid #4aaaa4;
 }
 
 #auth-image {
     width: auto;
-    height: 200px;
+    height: auto;
     float: left;
     margin: 20px auto;
     justify-content: center;
+    /* position: absolute; */
+    /* left: 0px; */
+    /* top: 0px; */
+    /* z-index: 5; */
 }
+/* img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  } */
 
-/* #thumbPic {
-   justify-content: center;
-   margin-top: 60px;
-} */
-/* .content {
-    margin-left: 10px;
-    padding: 0 auto;
+#content {
+   
+    margin: 20px 0 20px 0;
+    float: left;
+    overflow-wrap: break-word;
 }
-p {
-    display: inline-block;
-} */
 
 
 /* navigation bar properties */
@@ -103,7 +109,7 @@ p {
 }
 #navbarSupportedContent {
     display: flex;
-   justify-content: flex-end;
+    justify-content: flex-end;
 }
 
 #no-padd {
