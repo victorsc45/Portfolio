@@ -10,6 +10,8 @@
     <!-- Latest compiled and minified CSS -->
        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+        <!-- sticky footer bootstrap for css stylesheet -->
+        <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer/sticky-footer.css">
  </head>
 
 <body>
@@ -37,7 +39,7 @@
         </div><!-- /.container-fluid -->
     </nav>
     <!-- about me header columns and connect with me panel responsive container -->
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-8" id="page-head">
                 <div class="page-header">
@@ -62,7 +64,7 @@
     </div>
     <!-- main content with picture and some descriptions about me responsive rows and columns start main row across page -->
     <div class="row">
-        <!-- empty div to off-set columns and rows (could not get col-offset to work at this time-->
+        <!-- empty div to off-set columns and rows (could not get col-offset to work at this time)-->
         <div class="col-xs-1 col-sm-1 col-md- 2 col-lg-2">
         </div>
         <!-- beginning of picture and main content about me -->
@@ -100,12 +102,14 @@
 </div>
     </div>
     </div>
-
-    <!-- <footer>
-        <div class="footer">
-            &copy; Copyright 2020 Victor Litzau
+<!-- sticky footer using absolute  -->
+   
+        <footer class="footer">
+            <div class="container">
+            <span class="text-muted"> Copyright 2020 Victor Litzau</span>
         </div>
-    </footer> -->
+    
+    </footer> 
 </body>
 <!-- javaScript and jQuery mins work with bootstrap cnds -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

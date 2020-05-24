@@ -5,7 +5,9 @@
 /* set body weight and background */
 body 
 {
-    /* add bg url here */
+    background-color: #fff;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     font-size: 16px;
     line-height: 32px;
     font-family: 'Arial', 'Helveticaa Neue', Arial, Helvetica, sans-serif;
@@ -38,17 +40,12 @@ body
 
 /* fixed footer properties */
 
-.footer {
-    height: 50px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+footer, .footer {
     background-color: #4aaaa4;
     color: white;
     text-align: center;
-    padding-top: 16px;
-}
+    padding: 12px auto;
+} 
 
 /* name logo properties */
 
@@ -92,9 +89,9 @@ body
 
 #content {
    
-    margin: 20px 0 20px 0;
+    margin: 20px 0 40px 0;
     float: left;
-    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 
