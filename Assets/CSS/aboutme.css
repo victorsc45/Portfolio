@@ -64,7 +64,7 @@ footer, .footer {
     text-shadow: -1px 1px 0 #777,
 				  1px 1px 0 #777,
 				 1px -1px 0 #777;
-				-1px -1px 0 #777;
+				
 }
  /* main container properties */
 #main-container{
@@ -110,7 +110,7 @@ footer, .footer {
     text-shadow: -1px 1px 0 #777,
     1px 1px 0 #777,
    1px -1px 0 #777;
-  -1px -1px 0 #777;
+  
 }
 
 #no-padd {
