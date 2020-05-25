@@ -6,12 +6,13 @@
 body 
 {
     background-color: #fff;
-    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
     font-size: 16px;
     line-height: 32px;
     font-family: 'Arial', 'Helveticaa Neue', Arial, Helvetica, sans-serif;
     color: #777;
+    margin: 0px, 0px;
 }
 
 /* social icon display properties */
@@ -23,7 +24,7 @@ body
     margin-right: 0px;
 }
 
- div .panel-body {
+div .panel-body {
     display: flex;
     justify-content:space-between;
 }    
@@ -40,7 +41,7 @@ body
 
 /* fixed footer properties */
 
-footer, .footer {
+.footer {
     background-color: #4aaaa4;
     color: white;
     text-align: center;
@@ -122,5 +123,8 @@ footer, .footer {
     padding: 0;
     background: linear-gradient(#4aaaa4, #fff);
 }
-
+#head-width {
+    max-width: 1188px;
+    margin: 0 auto;
+}
 /* media queries for site responsiveness */
