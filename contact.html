@@ -1,29 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href="Assets/CSS/reset.css">
-    <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Me</title>
+        <!-- <link rel="stylesheet" type="text/css" href="Assets/CSS/reset.css"> -->
+        <link rel="stylesheet" type="text/css" href="Assets/CSS/contact.css">
+        <!-- Latest compiled and minified CSS -->
+           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+            <!-- sticky footer bootstrap for css stylesheet -->
+            <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer/sticky-footer.css">
+     </head>
 <body>
-    <header id="masthead">
-        <div class="container">
-            <a href="index.html" id="logo">Victor Litzau
-            </a>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+     <!-- nav bar setup for links logo and responsiveness -->
+     <nav class="navbar navbar-expand-lg navbar-dark custom-navbar"  id="no-padd">
+        <div class="container-fluid"  id="no-padd">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <a id="logo" class="navbar-brand" href="#">Victor Litzau</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item active"><a class="nav-link custom-nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item active"><a class="nav-link custom-nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item active"><a class="nav-link custom-nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+        <!-- </div> -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container-fluid main-container">
+        <div class="row">
+        <div class="col-lg-12">
+            <h1>Contact</h1><hr>
         </div>
-    </header>
-<div id="main-container" class="container">
-    <section class="main-section">
-        <h1>Contact</h1>
-
         <form id="contact-form">
+            <ul>
+                <li>
+                    <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="John Smith" required="required">
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+                </li>
+                <li>
+                    <label for="message">Message</label>
+                        <textarea id="message" name="message"placeholder="message" required="required"></textarea>
+                </li>   
+            </ul>
+            <input type="submit" name="submit">
+           </form>
+
+
+        </div>
+    </div>
+
+        <!-- <form id="contact-form">
         <ul>
             <li>
                 <label for="name">Name</label>
@@ -39,8 +79,8 @@
             </li>   
         </ul>
         <input type="submit" name="submit">
-       </form>
-    </section>
+       </form> -->
+    <!-- </section>
 
     <section class="sidebar">
         <div id="connect">
@@ -50,12 +90,25 @@
             <img src="assets/images/github.png" style="width:128px;height:128px;" class="social" alt="github">
             <img src="assets/images/stackoverflow.png" style="width:128px;height:128px;" class="social" alt="stackoverflow">
         </div>
-    </section>
-</div>
-<footer>
+    </section> -->
+
+ <!-- sticky footer using absolute  -->
+   
+ <footer class="footer">
     <div class="container">
-        &copy; Copyright 2020 Victor Litzau
-    </div>
-</footer>
+    <span class="text-muted">&copy Copyright 2020 Victor Litzau</span>
+</div>
+
+</footer> 
+<!-- javaScript and jQuery mins work with bootstrap cnds -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+crossorigin="anonymous"></script>
 </body>
 </html>

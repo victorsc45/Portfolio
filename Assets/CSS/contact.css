@@ -17,15 +17,6 @@ body
 div .container .container-width {
     max-width: 0px;
 }
-/*  header line for portfolio gallery*/
-hr {
-    font-size: 30px;
-    line-height: 49px;
-    border-bottom: 3px solid #ddd;
-    padding-bottom: 20px;
-
-}
-/* portfolio image gallery */
 .main-container {
     background: #eee;
     max-width: 1024px;
@@ -33,32 +24,6 @@ hr {
     justify-content: space-around;
     margin-bottom: 84px;
 }
-/* card sizing and positioning */
-.card-img {
-    width: 220px;
-    height:220px;
-}
-.work {
-    float: left;
-    margin:40px 40px;
- }
-.work:nth-child(odd) {
-    margin-right: 40px;
-}
-
-/* overlay position and colors */
-div .card-banner {
-   width: 100%;
-   position: absolute;
-   top: 60%;
-   bottom: 10%;
-   text-align: center;
-   background-color: #4aaaa4;
-   opacity: .8;
-   color: white;
-   padding: 12px 0;
-}
-
 /* fixed footer properties */
 
 .footer {
@@ -67,9 +32,6 @@ div .card-banner {
     text-align: center;
     padding: 12px auto;
 } 
-
-/* name logo properties */
-
 #logo {
     width: 250px;
     height: 90px;
@@ -87,7 +49,6 @@ div .card-banner {
 				 1px -1px 0 #777;
 				
 }
-
 /* navigation bar properties */
 .custom-navbar {
     background-image: linear-gradient(#fff, #4aaaa4);
@@ -119,4 +80,3 @@ div #page-head {
     max-width: 1188px;
     margin: 0 auto;
 }
-/* media queries for site responsiveness */
