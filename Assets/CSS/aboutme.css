@@ -14,9 +14,19 @@ body
     color: #777;
     margin: 0px, 0px;
 }
+/* header title style */
+.head-title-style {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: -1px 1px 0 #777,
+				  1px 1px 0 #777,
+                 1px -1px 0 #777;
+    color:  #eee;
 
+}
 /* social icon display properties */
-
+h3 {
+    text-align: center;
+}
 .social {
     width: 80px;
     height: 80px;

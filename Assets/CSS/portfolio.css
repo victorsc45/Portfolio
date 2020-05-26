@@ -17,6 +17,17 @@ body
 div .container .container-width {
     max-width: 0px;
 }
+
+/* header title style */
+.head-title-style {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: -1px 1px 0 #777,
+				  1px 1px 0 #777,
+                 1px -1px 0 #777;
+    color:  #4aaaa4;
+
+}
+
 /*  header line for portfolio gallery*/
 hr {
     font-size: 30px;

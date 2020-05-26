@@ -81,6 +81,14 @@ div #page-head {
 
 /* contact */
 
+.head-title-style {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: -1px 1px 0 #777,
+				  1px 1px 0 #777,
+                 1px -1px 0 #777;
+    color:  #4aaaa4;
+
+}
 
 
 label,
