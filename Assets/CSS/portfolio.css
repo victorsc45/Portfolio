@@ -2,6 +2,7 @@
 * {
     box-sizing: border-box;
 }
+
 /* set body weight and background */
 body 
 {
@@ -14,11 +15,13 @@ body
     color: #777;
     margin: 0px, 0px;
 }
+
 div .container .container-width {
     max-width: 0px;
 }
 
 /* header title style */
+
 .head-title-style {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: -1px 1px 0 #777,
@@ -29,6 +32,7 @@ div .container .container-width {
 }
 
 /*  header line for portfolio gallery*/
+
 hr {
     font-size: 30px;
     line-height: 49px;
@@ -36,7 +40,9 @@ hr {
     padding-bottom: 20px;
 
 }
+
 /* portfolio image gallery */
+
 .main-container {
     background: #eee;
     max-width: 1024px;
@@ -44,7 +50,9 @@ hr {
     justify-content: space-around;
     margin-bottom: 84px;
 }
+
 /* card sizing and positioning */
+
 .card-img {
     width: 220px;
     height:220px;
@@ -70,16 +78,7 @@ div .card-banner {
    padding: 12px 0;
 }
 
-/* fixed footer properties */
-
-.footer {
-    background-color: #4aaaa4;
-    color: white;
-    text-align: center;
-    padding: 12px auto;
-} 
-
-/* name logo properties */
+/* navbar name logo properties */
 
 #logo {
     width: 250px;
@@ -130,4 +129,12 @@ div #page-head {
     max-width: 1188px;
     margin: 0 auto;
 }
-/* media queries for site responsiveness */
+
+/* fixed footer properties */
+
+.footer {
+    background-color: #4aaaa4;
+    color: white;
+    text-align: center;
+    padding: 12px auto;
+}

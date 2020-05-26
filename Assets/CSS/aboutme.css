@@ -14,7 +14,9 @@ body
     color: #777;
     margin: 0px, 0px;
 }
+
 /* header title style */
+
 .head-title-style {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: -1px 1px 0 #777,
@@ -23,7 +25,9 @@ body
     color:  #eee;
 
 }
+
 /* social icon display properties */
+
 h3 {
     text-align: center;
 }
@@ -49,16 +53,7 @@ div .panel-body {
     background: linear-gradient(#4aaaa4, #fff); 
 }
 
-/* fixed footer properties */
-
-.footer {
-    background-color: #4aaaa4;
-    color: white;
-    text-align: center;
-    padding: 12px auto;
-} 
-
-/* name logo properties */
+/* navbar name logo properties */
 
 #logo {
     width: 250px;
@@ -78,6 +73,7 @@ div .panel-body {
 				
 }
  /* main container properties */
+
 #main-container{
     background: #fff;
     padding: 30px, auto;
@@ -89,6 +85,8 @@ div .panel-body {
     border: 2px solid #4aaaa4;
 }
 
+/* about me image initial set */
+
 #auth-image {
     width: auto;
     height: auto;
@@ -97,6 +95,7 @@ div .panel-body {
     justify-content: center;
 }
 
+/* content of about me main container set paragraphs */
 
 #content {
    
@@ -107,6 +106,7 @@ div .panel-body {
 
 
 /* navigation bar properties */
+
 .custom-navbar {
     background-image: linear-gradient(#fff, #4aaaa4);
 }
@@ -137,4 +137,12 @@ div #page-head {
     max-width: 1188px;
     margin: 0 auto;
 }
-/* media queries for site responsiveness */
+
+/* fixed footer properties */
+
+.footer {
+    background-color: #4aaaa4;
+    color: white;
+    text-align: center;
+    padding: 12px auto;
+} 

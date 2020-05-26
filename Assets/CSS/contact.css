@@ -1,8 +1,11 @@
 /* border inside box size */
+
 * {
     box-sizing: border-box;
 }
+
 /* set body weight and background */
+
 body 
 {
     background-color: #fff;
@@ -17,6 +20,9 @@ body
 div .container .container-width {
     max-width: 0px;
 }
+
+/* contact main container display properties */
+
 .main-container {
     background: #eee;
     max-width: 640px;
@@ -26,14 +32,9 @@ div .container .container-width {
     margin: 0 0 30px 30px;
 
 }
-/* fixed footer properties */
 
-.footer {
-    background-color: #4aaaa4;
-    color: white;
-    text-align: center;
-    padding: 12px auto;
-} 
+/* navbar name logo display properties */
+
 #logo {
     width: 250px;
     height: 90px;
@@ -79,7 +80,7 @@ div #page-head {
     background: linear-gradient(#4aaaa4, #fff);
 }
 
-/* contact */
+/* contact  header styling */
 
 .head-title-style {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -90,6 +91,7 @@ div #page-head {
 
 }
 
+/* input types display properties */
 
 label,
 #name,
@@ -120,3 +122,12 @@ label,
     padding: 10px 30px;
     cursor: pointer;
 }
+
+/* fixed footer properties */
+
+.footer {
+    background-color: #4aaaa4;
+    color: white;
+    text-align: center;
+    padding: 12px auto;
+} 
