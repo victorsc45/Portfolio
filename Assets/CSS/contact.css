@@ -19,10 +19,12 @@ div .container .container-width {
 }
 .main-container {
     background: #eee;
-    max-width: 1024px;
+    max-width: 640px;
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 84px;
+    justify-content: start;
+    padding-bottom: 24px;
+    margin: 0 0 30px 30px;
+
 }
 /* fixed footer properties */
 
@@ -76,7 +78,37 @@ div #page-head {
     padding:0 0 0 40px;
     background: linear-gradient(#4aaaa4, #fff);
 }
-#head-width {
-    max-width: 1188px;
-    margin: 0 auto;
+
+/* contact */
+
+
+
+label,
+#name,
+#email,
+#message {
+    display: block;
+    width: 100%;
+}
+
+#name,
+#email,
+#message {
+    height: 35px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+#message {
+    height: 160px;
+}
+
+#sub-property {
+    background: #4aaaa5;
+    border: 0 none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 30px;
+    cursor: pointer;
 }
