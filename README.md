@@ -14,9 +14,9 @@ personal portfolio website
 
    * Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
 # Screen Shots of ultimate goal in responsive layout this Portfolio is stylized slightly differently
-   <img src="Assets/Images/HomeworkExamples/640-index.jpg" width="200px">
-   <img src="Assets/Images/HomeworkExamples/640-portfolio.jpg" width="200px">
-   <img src="Assets/Images/HomeworkExamples/640-contact.jpg" width="200px">
+   <img src="Assets/Images/HomeworkExamples/640-index.jpg" width="200px" style="display: inline-block;" >
+   <img src="Assets/Images/HomeworkExamples/640-portfolio.jpg" width="200px" style="display: inline-block;">
+   <img src="Assets/Images/HomeworkExamples/640-contact.jpg" width="200px" style="display: inline-block;">
   
 # portfolio
   About me page with a little introduction of myself and a placeholder picture
