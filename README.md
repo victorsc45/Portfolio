@@ -2,7 +2,8 @@
 personal portfolio website
 # Description
 
-Using Bootstrap, develop your portfolio site with the following items:
+   * Using Bootstrap, develop your portfolio site with the following items:
+
    * A navbar
 
    * A responsive layout
@@ -12,6 +13,9 @@ Using Bootstrap, develop your portfolio site with the following items:
    * The Bootstrap portfolio should minimize the use of media queries.
 
    * Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
+# Screen Shots of ultimate goal in responsive layout this Portfolio is stylized slightly differently
+
+    <img src="./Assets/Images/HomeworkExamples/640-contact.jpg" width="100">
 
 # portfolio
   About me page with a little introduction of myself and a placeholder picture
@@ -69,6 +73,11 @@ https://developer.mozilla.org/en-US/docs/Web/HTML
 
 '''
 https://www.w3.org/standards/webdesign/accessibility
+
+'''
+''' bootstrap components link starting 'A' and descending '''
+
+https://getbootstrap.com/docs/4.5/components/alerts/
 
 '''
 # thanks to Unsplashed and dPhoto by Tanner Ross on Unsplash music
