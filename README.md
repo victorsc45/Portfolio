@@ -92,10 +92,10 @@ https://getbootstrap.com/docs/4.5/components/alerts/
 
 
 # License
- Open to the public website for Horiseon Home Page
+ Open to the public website for Portfolio website
 
 # Tests
 
-test links on the web navigation
+test links on the site navigation and bootstrap responsive content
 
 
