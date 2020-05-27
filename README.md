@@ -19,10 +19,12 @@ personal portfolio website
    <img src="Assets/Images/HomeworkExamples/640-contact.jpg" width="200px">
   
 # portfolio
-  About me page with a little introduction of myself and a placeholder picture
-  Portfolio page showing five placeholder pictures of projects
-  Contact page used for contacting me with a name, email, message, and submit button.
 
+  * About me page with a little introduction of myself and a placeholder picture
+  * Portfolio page showing five placeholder pictures of projects
+  * Contact page used for contacting me with a name, email, message, and submit button.
+  * Link to deployed site: https://victorsc45.github.io/Portfolio/
+  
 ## Spec Criteria
 
 '''
