@@ -17,7 +17,11 @@ personal portfolio website
    <img src="Assets/Images/HomeworkExamples/640-index.jpg" width="200px" >
    <img src="Assets/Images/HomeworkExamples/640-portfolio.jpg" width="200px">
    <img src="Assets/Images/HomeworkExamples/640-contact.jpg" width="200px">
+<<<<<<< HEAD
    
+=======
+  
+>>>>>>> 20801a178480be2730de74c4f9b8cbf5fd4ed6c7
 # portfolio
   About me page with a little introduction of myself and a placeholder picture
   Portfolio page showing five placeholder pictures of projects
