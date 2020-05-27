@@ -1,9 +1,11 @@
 /* border inside box size */
+
 * {
     box-sizing: border-box;
 }
 
-/* set body weight and background */
+/* set body weight and background properties */
+
 body 
 {
     background-color: #fff;
@@ -31,7 +33,7 @@ div .container .container-width {
 
 }
 
-/*  header line for portfolio gallery*/
+/*  header line for portfolio gallery */
 
 hr {
     font-size: 30px;
@@ -99,6 +101,7 @@ div .card-banner {
 }
 
 /* navigation bar properties */
+
 .custom-navbar {
     background-image: linear-gradient(#fff, #4aaaa4);
 }

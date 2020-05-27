@@ -2,7 +2,8 @@
 * {
     box-sizing: border-box;
 }
-/* set body weight and background */
+/* set body weight and background properties */
+
 body 
 {
     background-color: #fff;
@@ -26,7 +27,7 @@ body
 
 }
 
-/* social icon display properties arranged*/
+/* social icon display properties */
 
 h3 {
     text-align: center;
