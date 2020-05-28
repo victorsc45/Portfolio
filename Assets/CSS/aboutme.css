@@ -98,7 +98,7 @@ div .panel-body {
 
 /* content of about me main container set paragraphs */
 
-#content {
+.content {
    
     margin: 20px 0 40px 0;
     float: left;
