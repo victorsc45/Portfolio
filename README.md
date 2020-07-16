@@ -91,11 +91,11 @@ the default bootstrap theme or an unstyled HTML site.
 
 # Screenshot of the deployed application
 
-* * <img src="Assets/Images/AboutMe.jpg" width="280px">
+* * <img src="Assets/Images/AboutMe.jpg" width="468px">
 
-* * <img src="Assets/Images/Contact.jpg" width="280px">
+* * <img src="Assets/Images/Contact.jpg" width="468px">
 
-* * <img src="Assets/Images/Portfolio.jpg" width="280px">
+* * <img src="Assets/Images/Portfolio.jpg" width="468px">
 
 
 # Link to Video module showing the navigation of this Portfolio
@@ -136,8 +136,7 @@ https://getbootstrap.com/docs/4.5/components/alerts/
 * background texture Concrete Wall Made by Atle Mo ''' https://www.transparenttextures.com/ '''
 
 
-# License
-  # Licence
+# Licence
   
   >  [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)]
     
