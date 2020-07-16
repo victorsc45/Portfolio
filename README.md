@@ -91,11 +91,11 @@ the default bootstrap theme or an unstyled HTML site.
 
 # Screenshot of the deployed application
 
-* * <img scr="./Assets/Images/AboutMe.jpg" width="400px">
+* * <img src="Assets/Images/AboutMe.jpg" width="280px">
 
-* * <img scr="./Assets/Images/Contact.jpg" width="400px">
+* * <img src="Assets/Images/Contact.jpg" width="280px">
 
-* * <img scr="./Assets/Images/Portfolio.jpg" width="400px">
+* * <img src="Assets/Images/Portfolio.jpg" width="280px">
 
 
 # Link to Video module showing the navigation of this Portfolio
