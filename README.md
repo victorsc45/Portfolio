@@ -4,6 +4,22 @@
 
 https://victorsc45.github.io/Portfolio/
 
+ # Table of Contents
+  <!-- toc -->
+  * [Description](#description)
+  * [Screen Shots of Mock up](#screen)
+  * [Portfolio](#portfolio)
+  * [Spec Criteria](#criteria)
+  * [Minimum Requirements](#requirements)
+  * [Screenshots of the deployed application](#screenshots)
+  * [Link to Video module](#Link)
+  * [Installation](#Installation)
+  * [Review](#review)
+  * [Credits](#credits)
+  * [License](#license)
+  * [Tests](#tests)
+   <!-- toc stop -->
+
 # Description
 
    * Using Bootstrap, develop your portfolio site with the following items:
@@ -19,7 +35,7 @@ https://victorsc45.github.io/Portfolio/
    * Contact page for users to contact me by email using their default email service or provider
 
    * Screenshots are provided as a reference in the `Assets/Images` folder. Used Bootstrap to create a similar, responsive layout.
-# Screen Shots of ultimate goal in responsive layout this Portfolio is stylized slightly differently
+# Screen Shots of Mock up
    <img src="Assets/Images/HomeworkExamples/640-index.jpg" width="200px" >
    <img src="Assets/Images/HomeworkExamples/640-portfolio.jpg" width="200px">
    <img src="Assets/Images/HomeworkExamples/640-contact.jpg" width="200px">
@@ -54,7 +70,7 @@ the default bootstrap theme or an unstyled HTML site.
 
 * Make sure the font size is large enough to read, and that the colors don't cause eye strain.
 
-### Minimum Requirementscon
+### Minimum Requirements
 
 * Functional, deployed application
 
@@ -89,7 +105,7 @@ the default bootstrap theme or an unstyled HTML site.
   * Link to the GitHub repository 
   > The link to the GitHub repository is on the **About Me** page and contains all the pinned projects in that Overview
 
-# Screenshot of the deployed application
+# Screenshots of the deployed application
 
 * * <img src="Assets/Images/AboutMe.jpg" width="468px">
 
@@ -105,7 +121,7 @@ the default bootstrap theme or an unstyled HTML site.
 
 # Instulation
 
-N/A at this time simply follow the url and the links in the page
+> N/A at this time simply follow the url presented above and follow the links in the Portfolio to learn more about my projects and me!
 
 
 # Review
