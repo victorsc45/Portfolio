@@ -48,7 +48,7 @@
             <!-- column responsiveness for contact form -->
             <div class="col-xs-3 col-md-6 col-lg-12">
                 <!-- contact form control using bootstrap responsiveness  -->
-                <form>
+                <form action="mailto:someone@example.com" method="post" enctype="text/plain">
                     <!-- input contact name in form -->
                     <label for="name">Name</label>
                     <input class="form-control" type="text" name="name" id="name" placeholder="John Smith"
@@ -66,18 +66,18 @@
                             id="message"></textarea>
                     </div>
                     <!-- input submit button bootstrap button -->
-                    <button type="submit" id="sub-property">Sign in</button>
+                    <button type="submit" id="sub-property">Submit</button>
                 </form>
             </div>
         </div>
     </div>
     <!-- sticky footer using absolute  -->
-    
-         <footer class="footer">
+
+    <footer class="footer">
         <div class="container">
             <span class="text-muted">&copy; Copyright 2020 Victor Litzau</span>
         </div>
-        </footer>
+    </footer>
 
     <!-- javaScript and jQuery mins work with bootstrap cnds -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
