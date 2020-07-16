@@ -160,7 +160,7 @@ https://getbootstrap.com/docs/4.5/components/alerts/
 * background texture Concrete Wall Made by Atle Mo ''' https://www.transparenttextures.com/ '''
 
 
-# Licence
+# License
   
   >  [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)]
     
