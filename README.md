@@ -162,9 +162,11 @@ https://getbootstrap.com/docs/4.5/components/alerts/
 
 # License
   
-  >  [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)]
+  > select license to review aggreements: 
+
+ [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
     
-     :octocat:
+  :octocat:
 
 # Tests
 
