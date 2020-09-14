@@ -153,6 +153,7 @@ https://getbootstrap.com/docs/4.5/components/alerts/
 '''
 #### Photo credits
 * thanks to Unsplashed and dPhoto by Tanner Ross on Unsplash music
+* <span>Photo by <a href="https://unsplash.com/@jesuskiteque?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jesus Kiteque</a> on <a href="https://unsplash.com/s/photos/coding?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 * Photo by Courtnie Tosana on Unsplash fire and ice
 * Photo by Chris Liverani on Unsplash math picture 
 * Photo by Ibrahim Rifath on Unsplash grid on phone picture
