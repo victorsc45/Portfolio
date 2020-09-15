@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Day Scheduler</title>
+    <!-- stylesheet for about me home page unique -->
+    <link rel="stylesheet" type="text/css" href="./Assets/CSS/project.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <!-- sticky footer bootstrap for css stylesheet -->
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer/sticky-footer.css">
+</head>
+
+<body>
+
+    <!-- nav bar setup for links logo and responsiveness -->
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar" id="no-padd">
+        <div class="container-fluid" id="no-padd">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a id="logo" class="navbar-brand" href="#">Victor Litzau</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collects the nav links, forms, and other content for toggling -->
+            <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item active"><a class="nav-link custom-nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item active"><a class="nav-link custom-nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active"><a class="nav-link custom-nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!-- about me header columns and connect with me panel responsive container -->
+    <div class="container-fluid" id="head-width">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-8" id="page-head">
+                <div class="page-header">
+                    <h1 class="head-title-style">Work Day Scheduler App</h1>
+                </div>
+
+            </div>
+            <!-- social media icons for future connect with me links in a bootstrap panel with responvieness  -->
+            <div class="col-xs-6 col-md-4" id="social">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Connect with Me</h3>
+                    </div>
+                    <div class="panel-body">
+                        <a target="_blank" href="https://linkedin.com/in/victor-litzau">
+                            <img src="./Assets/Images/linkedin.png" class="social" alt="linkedin">
+                        </a>
+                        <a target="_blank" href="https://github.com/victorsc45">
+                            <img src="./Assets/Images/github.png" class="social" alt="github">
+                        </a>
+                        <a target="_blank" href="./Assets/Victor_LitzauResume2020.pdf">
+                            <img src="./Assets/Images/resumelogo.jpg" class="social" alt="resume">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main content with picture and some descriptions about me responsive rows and columns start main row across page -->
+    <!-- <div class="row"> -->
+    <div class="container">
+        <div class="btnSpace">
+            <a target="_blank" class="btn btn-info" href="https://victorsc45.github.io/Work-Day-Scheduler/"
+                role="button">Go
+                to
+                Site</a>
+            <a target="_blank" class="btn btn-info" href="https://github.com/victorsc45/Work-Day-Scheduler"
+                role="button">Work Day
+                Scheduler Repo</a>
+        </div>
+        <h2>Screen Shots of Work Day Scheduler App</h2>
+        <hr>
+        <h4>Click on the images to enlarge them in a new window</h4>
+        <hr>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="./Assets/Images/workday.JPG" target="_blank">
+                        <img src="./Assets/Images/workday.JPG" alt="daily schedule" style="width:100%">
+                        <div class="caption">
+                            <p>developed with jQuery and the moment.js library to get the exact date and time</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="./Assets/Images/dailymeets.JPG" target="_blank">
+                        <img src="./Assets/Images/dailymeets.JPG" alt="get the burger to table" style="width:100%">
+                        <div class="caption">
+                            <p>Each hour of the day is compared to current time from moment.js</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="./Assets/Images/workdaylocal.png" target="_blank">
+                        <img src="./Assets/Images/workdaylocal.png" alt="clear burger trash" style="width:100%">
+                        <div class="caption">
+                            <p>Inspect local storage and see the results of input and save content</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <p class="content">User is presented with a daily planner to create a schedule:
+                the current day is displayed at the top of the calendar
+                presented with timeblocks for standard business hours using moment.js
+                Each timeblock is color coded to indicate whether it is in the past, present, or future
+                Click into a timeblock and enter an event for the day
+                Click the save button for that timeblock
+                The text for that event is saved in local storage or the deletion of an event is also stored
+                refresh the page the saved events persist.
+
+            </p>
+        </div>
+    </div>
+
+    <!-- sticky footer using absolute bootstrap -->
+
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">&copy; Copyright 2020 Victor Litzau</span>
+        </div>
+
+    </footer>
+    <!-- javaScript and jQuery mins work with bootstrap cnds -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>
