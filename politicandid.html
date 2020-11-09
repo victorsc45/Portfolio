@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politicandid</title>
+    <!-- stylesheet for about me home page unique -->
+    <link rel="stylesheet" type="text/css" href="./Assets/CSS/project.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <!-- sticky footer bootstrap for css stylesheet -->
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer/sticky-footer.css">
+</head>
+
+<body>
+
+    <!-- nav bar setup for links logo and responsiveness -->
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar" id="no-padd">
+        <div class="container-fluid" id="no-padd">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a id="logo" class="navbar-brand" href="#">Victor Litzau</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collects the nav links, forms, and other content for toggling -->
+            <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item active"><a class="nav-link custom-nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item active"><a class="nav-link custom-nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active"><a class="nav-link custom-nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!-- about me header columns and connect with me panel responsive container -->
+    <div class="container-fluid" id="head-width">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-8" id="page-head">
+                <div class="page-header">
+                    <h1 class="head-title-style">Politicandid App</h1>
+                </div>
+
+            </div>
+            <!-- social media icons for future connect with me links in a bootstrap panel with responvieness  -->
+            <div class="col-xs-6 col-md-4" id="social">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Connect with Me</h3>
+                    </div>
+                    <div class="panel-body">
+                        <a target="_blank" href="https://linkedin.com/in/victor-litzau">
+                            <img src="./Assets/Images/linkedin.png" class="social" alt="linkedin">
+                        </a>
+                        <a target="_blank" href="https://github.com/victorsc45">
+                            <img src="./Assets/Images/github.png" class="social" alt="github">
+                        </a>
+                        <a target="_blank" href="./Assets/Victor_LitzauResume2020.pdf">
+                            <img src="./Assets/Images/resumelogo.jpg" class="social" alt="resume">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main content with picture and some descriptions about me responsive rows and columns start main row across page -->
+    <!-- <div class="row"> -->
+    <div class="container">
+        <div class="btnSpace">
+            <a target="_blank" class="btn btn-info" href="https://us-politicandid.herokuapp.com/" role="button">Go to
+                Site</a>
+            <a target="_blank" class="btn btn-info" href="https://github.com/victorsc45/Politicandid"
+                role="button">PolitiCandid Repo</a>
+        </div>
+        <h2>Screen Shots of Voting App</h2>
+        <hr>
+        <h4>Click on the images to enlarge them in a new window</h4>
+        <hr>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="./Assets/Images/PC.JPG" target="_blank">
+                        <img src="./Assets/Images/PC.JPG" alt="Signup login" style="width:100%">
+                        <div class="caption">
+                            <p>Signup and login using nodejs Passport and Session packages</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="./Assets/Images/loggedinPC.JPG" target="_blank">
+                        <img src="./Assets/Images/loggedinPC.JPG" alt="budgeting account page" style="width:100%">
+                        <div class="caption">
+                            <p>Voter profile or Candidacy porfile are created by voter user or candidate user</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="./Assets/Images/hotissuesPC.JPG" target="_blank">
+                        <img src="./Assets/Images/hotissuesPC.JPG" alt="budgeting transactions table"
+                            style="width:100%">
+                        <div class="caption">
+                            <p>Each user adds important hot topic issues to their profile stored in Mongo Database</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="./Assets/Images/matchingPC.JPG" target="_blank">
+                        <img src="./Assets/Images/matchingPC.JPG" alt="budgeting transactions table" style="width:100%">
+                        <div class="caption">
+                            <p>Each user is matched with candidate by ranking system based on important issues</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <h5>Technologies</h5>
+            <p class="content">
+                Developed using MERN: Using MVC development methods
+                requiring: MongoDB, Express, React, Node.js, and Passport,
+                Server-side: Mongoose connections to database, using Atlas, and Deployed to Heroku
+                NPM packages "axios", "bootstrap","react", "react-dom", "react-router-dom"
+                Leveraging Express for the app and React for the stateful view, and
+                Axios for passing api data
+            </p>
+            <h5>About PolitiCandid</h5>
+            <p class="content">The platform functions as “political matching” site. It matches citizens to candidates,
+                based on
+                profile input of the user. There are two types of users candidates and citizens. The user will make a
+                profile and
+                give their position on a number of political issues. Candidates have the ability to list themselves as
+                candidates
+                and can add information to their profile describing the office they are campaigning for. The platform
+                allows users
+                to see what candidates match their beliefs and allow candidates to see what voters they align with. The
+                user is able
+                to look at the other users pages and see their stances on issues.
+            </p>
+        </div>
+    </div>
+
+    <!-- sticky footer using absolute bootstrap -->
+
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">&copy; Copyright 2020 Victor Litzau</span>
+        </div>
+
+    </footer>
+    <!-- javaScript and jQuery mins work with bootstrap cnds -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>
