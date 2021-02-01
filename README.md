@@ -2,7 +2,7 @@
 
 >professional portfolio website: Deployed link below:
 
-<a href="https://victorsc45.github.io/Portfolio" target="_blank">Portfolio</a>
+<a target="_blank" href="https://victorsc45.github.io/Portfolio">Portfolio</a>
 
  # Table of Contents
   <!-- toc -->
